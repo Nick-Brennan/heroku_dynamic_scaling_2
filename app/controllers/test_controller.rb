@@ -1,6 +1,5 @@
 class TestController < ApplicationController
   def test
-  	# added a buildpack
   	Thread.new do
 	  	p "ok 1"
 	  	# var1 = system 'heroku ps --app cli-test-1'
