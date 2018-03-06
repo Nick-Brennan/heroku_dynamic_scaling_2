@@ -1,5 +1,5 @@
 class TestController < ApplicationController
-	# removed buildpack
+	# added buildpack
   def test
   	Thread.new do
 	  	p "ok 1"
